@@ -85,9 +85,7 @@ Add additional notes about how to deploy this on a live system -->
 
 ## Built With
 
-* [Tensorflow](https://www.tensorflow.org) - Deep Learning platform
-* [Neural Structured Leanring](https://www.tensorflow.org/neural_structured_learning) - Graph Learning API
-* [Grakn AI](https://grakn.ai) - Knowledge graph platform
+* [Pytorch](https://www.tensorflow.org) - Deep Learning platform
 
 <!-- ## Versioning
 
@@ -95,7 +93,6 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 * **Aleksander Frese** - *Grakn and politician dataset (dataset 4)*
-* **Sultan Tariq** - *Adverserial learning (dataset 5-6)* 
 * **Johan Weiss** - *Neural Graph Learning (dataset 1-3)*
 
 <!-- See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project. -->

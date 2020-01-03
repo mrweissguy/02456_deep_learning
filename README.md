@@ -1,5 +1,14 @@
 # 02456 Deep Learning final project
+## CONTROLLED GENERATION OF PROTEINS USING CONDITIONALCHARACTER-LEVEL RNN
+### *Project 6, Bioinformatics - Can be generate specific proteins?*
 This repository contains code for the 02456 deep learning F19 final report.
+
+It contains:
+* datasets used for experiments in the report.
+	* PennTreeBank charcter and word level datasets
+* jupyter notebook used to obtain main results.
+* weights for the models trained.
+* UPDATE THIS WHEN DONE....
 
 ## Getting Started
 
@@ -7,39 +16,23 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-The notebooks is created using python 3.7. To run the code in jupyter notebooks, be sure to install [Anaconda](https://www.anaconda.com/distribution/).
+The notebooks is created using python 3.7. To run the code in jupyter notebooks, be sure to install [Anaconda](https://www.anaconda.com/distribution/) or run it in [google colab](https://colab.research.google.com/).
 
 To run the notebooks install the libraries listed below:
-* neural_structured_learning
-* tensorflow
-* csv
-* numpy
-* pandas
-* matplotlib
+
+* pytorch
+
 
 The installation process is straight forward.
 
 ```
-pip install neural-structured-learning
+pip install torch
 ```
 
-```
-pip install tensorflow
-```
 
-```
-pip install csv
-```
+To recreate the results from the report, please look at each individual notebook. As default, they are set to continue training on the weights in the nets folder.
 
-```
-pip install pandas
-```
-
-```
-pip install matplotlib
-```
-
-To run the grakn database first download grakn from their [webpage](https://grakn.ai/download). Load the script into the enviroment and you are ready to test out the data.
+To simply load the results and see the train/valid error during training, run the SOMETHING FUNCTION. The correct model with the correct parameters will need to be instantiated before it can be run. 
 
 <!-- ### Installing
 

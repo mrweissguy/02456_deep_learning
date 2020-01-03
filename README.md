@@ -7,13 +7,13 @@ This repository contains code for the 02456 deep learning F19 final report.
 It contains:
 * datasets used for experiments in the report.
 	* PennTreeBank charcter and word level datasets
-* jupyter notebook used to obtain main results.
-* weights for the models trained.
-* UPDATE THIS WHEN DONE....
+* jupyter notebooks 
+	* network and results from traning on PTB using DropConnect.
+	* network and results from traning on protein data using a conditional model to generate proteins.
 
-## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+Weights for the models can be downloaded [here](https://drive.google.com/open?id=19vBZTCBuMbjjYgclTQPA_jlOcTKXK0e5).
+
 
 ### Prerequisites
 
@@ -31,9 +31,9 @@ pip install torch
 ```
 
 
-To recreate the results from the report, please look at each individual notebook. As default, they are set to continue training on the weights in the nets folder.
+To recreate the results from the report, please look at each individual notebooks. As default, they are set to continue training on the weights in the nets folder.
 
-To simply load the results and see the train/valid error during training, run the SOMETHING FUNCTION. The correct model with the correct parameters will need to be instantiated before it can be run. 
+To simply load the results and see the train/valid error during training, run the load function in the notebook. The correct model with the correct parameters will needed to be instantiated before it can be run. 
 
 <!-- ### Installing
 
@@ -97,8 +97,10 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Jakob Eg Larsen
-* Jakob Andreas Bærentzen
+* Professor: Ole Winther
+* Teaching Assistant: Alexander R. Johansen
+
+* Project proposer: Jose Juan Almagro Armenteros
 
 ## Contributing
 

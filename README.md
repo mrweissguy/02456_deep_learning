@@ -1,5 +1,5 @@
 # 02456 Deep Learning final project
-### *Controlled generation of proteins using conditionalcharacter-level rnn* 
+### *Controlled generation of proteins using conditional character-level rnn* 
 **Project: 6, Bioinformatics - Can we generate specific proteins?**
 
 This repository contains code for the 02456 deep learning F19 final report.
